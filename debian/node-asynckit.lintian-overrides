@@ -1,0 +1,2 @@
+# false positive
+node-asynckit: embedded-javascript-library usr/share/nodejs/asynckit/lib/async.js please use libjs-async
