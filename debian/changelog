@@ -1,3 +1,27 @@
+node-asynckit (0.4.0-5) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-asynckit: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 22 Nov 2022 11:30:05 +0000
+
+node-asynckit (0.4.0-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ lintian-brush ]
+  * Bump debhelper from old 12 to 13
+  * Update standards version to 4.6.0, no changes needed
+
+  [ Yadd ]
+  * Modernize debian/watch
+    * Fix filenamemangle
+    * Fix GitHub tags regex
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Sun, 21 Nov 2021 14:25:48 +0100
+
 node-asynckit (0.4.0-3) unstable; urgency=medium
 
   * Team upload
